@@ -9,23 +9,6 @@ This project explores a novel approach to detecting image spoofing (rephotograph
 - 🔍 Annotates full-image bounding boxes to transform object detection into binary classification  
 - 📈 Outperforms traditional models like SVM and Random Forest on small datasets  
 - 🔐 Applicable to fraud detection in KYC/biometric verification systems
-- 
-## 🗂️ Project Structure
-
-project/
-├── dataset/
-│ ├── real/
-│ └── fake/
-├── annotations/
-│ └── YOLO-format labels
-├── yolov8-liveness.ipynb # Jupyter Notebook for training & inference
-├── runs/ # YOLOv8 training output
-├── images/ # Sample images and result visualizations
-├── README.md
-└── report/
-├── main.tex # IEEE-formatted report
-├── references.bib
-└── figures/
 
 ## 🧠 Model Overview
 
