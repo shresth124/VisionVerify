@@ -2,15 +2,15 @@
 
 This project explores a novel approach to detecting image spoofing (rephotographed images) by leveraging the YOLOv8 object detection architecture. Instead of its conventional use for object localization, YOLOv8 is repurposed here for full-image binary classification — distinguishing between *real (live)* and *rephotographed (fake)* biometric images. The model is trained on a small, manually curated dataset and shows promising results for deployment in secure KYC and biometric verification pipelines.
 
-## 📌 Key Features
+##  Key Features
 
-- ✅ Reformulates image liveness detection as a complete-frame object detection problem  
-- ⚙️ Based on the lightweight **YOLOv8n** architecture for real-time performance  
-- 🔍 Annotates full-image bounding boxes to transform object detection into binary classification  
-- 📈 Outperforms traditional models like SVM and Random Forest on small datasets  
-- 🔐 Applicable to fraud detection in KYC/biometric verification systems
+-  Reformulates image liveness detection as a complete-frame object detection problem  
+-  Based on the lightweight **YOLOv8n** architecture for real-time performance  
+-  Annotates full-image bounding boxes to transform object detection into binary classification  
+-  Outperforms traditional models like SVM and Random Forest on small datasets  
+-  Applicable to fraud detection in KYC/biometric verification systems
 
-## 🧠 Model Overview
+##  Model Overview
 
 - **Base Model:** YOLOv8n (Nano version for efficiency)  
 - **Backbone:** CSPDarknet  
@@ -19,7 +19,7 @@ This project explores a novel approach to detecting image spoofing (rephotograph
 
 In our use case, the bounding box covers the entire image, and the head is used only for predicting class probabilities (live vs. spoofed).
 
-## 📊 Results
+##  Results
 
 | Metric    | Value |
 |-----------|-------|
@@ -35,7 +35,7 @@ All images are annotated using YOLO-format with a single bounding box covering t
 
 1 = Real (live)
 
-🤝 Acknowledgments
+ Acknowledgments
 This project was developed by Aditi Saxena and Shresth Yadav as part of a research-based academic curriculum. The work builds upon Ultralytics' YOLOv8 framework and open-source liveness detection literature.
 
 📬 Contact
